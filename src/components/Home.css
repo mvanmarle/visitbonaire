@@ -1,0 +1,36 @@
+.home h2 {
+  color: white;
+  font-size: 24px;
+}
+
+.emojis {
+  font-size: 48px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.title-1 {
+  font-family: "Shrikhand", cursive;
+  color: white;
+  text-shadow: 0 5px 10px var(--primary-color);
+}
+
+.title-2 {
+  font-family: "Bungee", cursive;
+  color: white;
+  text-shadow: 0 5px 10px var(--primary-color);
+}
+
+.homepagetitle {
+  background-color: var(--accent-color);
+}
+
+.menu {
+  margin: 30px auto;
+}
+
+.page-logo {
+  max-width: 120px;
+  display: block;
+  margin: 0 auto;
+}

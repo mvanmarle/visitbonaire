@@ -1,13 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Navigation.css";
 
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
+      <nav className="navbar navbar-expand color-nav" variant="light">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            React Multi-Page Website
+            <img
+              src="images/Logo-VB.png"
+              alt="Visit Bonaire"
+              className="img-fluid navbar-logo"
+            />
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">

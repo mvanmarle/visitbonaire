@@ -1,0 +1,15 @@
+.color-nav {
+  background-color: var(--accent-color);
+}
+
+.navbar-logo {
+  max-width: 120px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
