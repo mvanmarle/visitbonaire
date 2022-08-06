@@ -13,7 +13,7 @@ function Home() {
                 <span className="title-1">Visit </span>
                 <span className="title-2"> Bonaire </span>
               </h1>
-              <h2>'Once a visitor, always a friend'</h2>
+              <h2>'Once a visitor, always a friend!'</h2>
             </div>
             <div className="col-6 p-3">
               <img
