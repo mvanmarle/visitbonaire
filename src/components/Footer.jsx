@@ -52,6 +52,7 @@ function Footer() {
               href="https://github.com/mvanmarle/Portfolio-MaureenvanMarle"
               target="_blank"
               title="Github Project repository"
+              rel="noreferrer"
             >
               Open source code
             </a>{" "}
