@@ -3,6 +3,76 @@
   font-size: 24px;
 }
 
+.home h3 {
+  font-family: "Bungee", cursive;
+  color: var(--primary-color);
+  text-shadow: 0 5px 10px var(--secondary-color);
+  font-size: 18px;
+}
+
+.home h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #272044;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.email h4 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #272044;
+}
+
+.home h5 {
+  font-family: "Bungee", cursive;
+  color: var(--accent-color-2);
+  font-size: 18px;
+}
+
+.home p {
+  font-family: "Open Sans", sans-serif;
+  color: #272044;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.primary {
+  background: var(--accent-color);
+  border: var(--accent-color);
+  color: white;
+  border-radius: 30px;
+  padding: 12px 15px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  font-family: "Bungee", cursive;
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.outline:hover,
+.primary:hover {
+  background: var(--secondary-color);
+  border: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.outline {
+  background: white;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  border-radius: 30px;
+  padding: 12px 15px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  font-family: "Bungee", cursive;
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
 .emojis {
   font-size: 48px;
   margin-bottom: 10px;
@@ -33,4 +103,8 @@
   max-width: 120px;
   display: block;
   margin: 0 auto;
+}
+
+.email {
+  background-color: var(--background-color);
 }
