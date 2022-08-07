@@ -47,30 +47,7 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div class="social-links d-flex justify-content-center">
-            <a
-              href="https://www.instagram.com/maureenvanmarle/"
-              target="_blank"
-              title="Instagram Profile"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a
-              href="https://github.com/mvanmarle"
-              target="_blank"
-              title="GitHub Profile"
-            >
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/maureenvanmarle/"
-              target="_blank"
-              title="Linked-in Profile"
-            >
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-          </div>
-          <p class="text-center mt-5">
+          <p className="text-center mt-5">
             <a
               href="https://github.com/mvanmarle/Portfolio-MaureenvanMarle"
               target="_blank"
